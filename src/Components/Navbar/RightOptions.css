@@ -1,0 +1,31 @@
+.RightOptions{
+    position: absolute;
+    right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.RightOptions .RightOptionsButton1{
+    padding: 12px;
+    background: white;
+    border-radius: 20px;
+    border:none;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+}
+.RightOptions .RightOptionsButton1:hover{
+    background: rgba(0,0,0,0.05);
+}
+.RightOptions .RightOptionsButton2{
+    padding: 12px;
+    background: white;
+    border-radius: 50%;
+    border:none;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 500;
+}
+.RightOptions .RightOptionsButton2:hover{
+    background: rgba(0,0,0,0.05);
+}

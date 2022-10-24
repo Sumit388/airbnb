@@ -1,0 +1,25 @@
+.BannerRow{
+    padding: 30px 4vw;
+}
+.BannerRow .RowFunctions{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap:wrap ;
+}
+.BannerRow .rowContent{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap:15px;
+    width: calc(100vw - 4vw);
+    padding-left: 4vw;
+    transform: translateX(-4vw);
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    transition: all 1s ease;
+}
+.BannerRow .rowContent::-webkit-scrollbar{
+    display: none;
+}

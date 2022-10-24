@@ -1,0 +1,13 @@
+.RowButton2{
+    width: none;
+    margin-right: 10px;
+    flex-shrink: 0;
+}
+.RowButton2 button{
+   padding: 8px 14px;
+   background: rgb(236, 236, 236);
+   border: none;
+   border-radius: 20px;
+   font-size: 14px;
+   cursor: pointer;
+}
